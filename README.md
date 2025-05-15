@@ -18,7 +18,7 @@ Este projeto é uma API RESTful desenvolvida em Java com Spring Boot, que simula
 
 ## 🧱 Estrutura do Projeto
 
-### 🗂️ Modelos
+### Modelos
 
 - `Categoria`: representa a categoria do jogo (ex: RPG, Aventura, Estratégia).
 - `Produto`: representa os jogos da loja, contendo título, descrição e data de cadastro.
@@ -27,14 +27,14 @@ As entidades possuem relacionamento:
 - `Categoria` → `Produto`: **@OneToMany**
 - `Produto` → `Categoria`: **@ManyToOne**
 
-### 🧠 Validações
+### Validações
 
 - Campos obrigatórios validados com `@NotNull`, `@NotBlank` e `@Size`.
 - Atualizações com timestamp automático usando `@UpdateTimestamp`.
 
 ---
 
-## 🧪 Testando a API
+## Testando a API
 
 Você pode testar os endpoints com ferramentas como **Postman** ou **Insomnia**. Basta rodar a aplicação e fazer requisições para os endpoints listados acima.
 
